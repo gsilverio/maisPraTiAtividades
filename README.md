@@ -1,7 +1,7 @@
 # Atividades +praTI 📚
 
-Neste repositorio você vai encontrar o codigo fonte de todas as atividades realizadas no decorrer do curso de FullStack ofertada pela +PraTi juntamente com a Codifica, além das
-das informações de como executa-los em sua máquina localmente.
+Neste repositório você encontrará o código-fonte de todas as atividades realizadas no decorrer do curso de FullStack ofertada pela +PraTi juntamente com a Codifica, além das
+informações de como executa-los em sua máquina localmente.
 
 ## Lista 01
 >[!TIP]
