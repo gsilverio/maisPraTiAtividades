@@ -1,6 +1,37 @@
 const prompt = require("prompt-sync")();
 
-/*let intOne = parseInt(prompt("Digite o primeiro inteiro: "));
+/*
+//EX 1
+let temp = parseFloat(prompt("Digite a temperatura em celsius: "));
+temp = (temp*9)/5+32;
+console.log(`${temp}F (temperatura em Fahrenheit.)`);
+*/
+
+
+/*
+//EX 2
+let eleitoresValidos = parseInt(prompt("Digite a quantidade de eleitores validos do municipio: "));
+let vBrancos = parseInt(prompt("Digite a quantidade de votos brancos: "));
+let vNulos = parseInt(prompt("Digite a quantidade de votos nulos: "));
+let vValidos = parseInt(prompt("Digite a quantidade de votos validos: "));
+let total = vBrancos+vNulos+vValidos;
+if(total>eleitoresValidos){
+    console.log("Quantidade de votos diferente entre quantidade de eleitores validos do municipio.");
+} else{
+    vBrancos = (vBrancos*100)/200;
+    console.log(`${vBrancos}% (percentual de votos brancos)`);
+    vNulos = (vNulos*100)/200;
+    console.log(`${vNulos}% (percentual de votos nulos)`);
+    vValidos = (vValidos*100)/200;
+    console.log(`${vValidos}% (percentual de votos validos)`);
+    
+}
+*/
+
+
+/*
+//EX3
+let intOne = parseInt(prompt("Digite o primeiro inteiro: "));
 let intTwo = parseInt(prompt("Digite o segundo inteiro: "));
 let intThree = parseInt(prompt("Digite o terceiro inteiro: "));
 let intFour = parseInt(prompt("Digite o quarto inteiro: "));
@@ -10,11 +41,12 @@ intOne += 25;
 intTwo *= 3;
 intThree *= 1.12;
 
-console.log(intOne, intTwo, intThree.toFixed(2), intFour);*/
+console.log(intOne, intTwo, intThree.toFixed(2), intFour);
+/*
 
 
-/*EX 4 e EX 5
-
+/*
+//EX 4 e EX 5
 let gradeOne = parseFloat(prompt("Digite a primeira nota: "));
 let gradeTwo = parseFloat(prompt("Digite a segunda nota: "));
 
@@ -27,8 +59,9 @@ if(gradeOne>=6.0){
 }
 */
 
-/*EX 06
 
+/*
+//EX 06
 let sizeA = parseFloat(prompt("Digite o primeiro lado do triangulo: "));
 let sizeB = parseFloat(prompt("Digite o segundo lado do triangulo: "));
 let sizeC = parseFloat(prompt("Digite o terceiro lado do triangulo: "));
@@ -46,8 +79,9 @@ if(sizeA < sizeB + sizeC && sizeB < sizeA+sizeC && sizeC<sizeA+sizeB){
 }
 */
 
-/*EX 7
 
+/*
+//EX 7
 const MENOR_DUZIA = 0.30;
 const MAIOR_DUZIA = 0.25;
 
@@ -59,9 +93,12 @@ if(qtdMaca>=12){
 }else{
     let total = qtdMaca*MENOR_DUZIA;
     console.log("Total: R$ "+total.toFixed(2));
-}*/
+}
+*/
 
-/*EX 8
+
+/*
+//EX 8
 let valOne = parseFloat(prompt("Digite o primeiro valor: "));
 let valTwo = parseFloat(prompt("Digite o segundo valor: "));
 
@@ -71,11 +108,12 @@ if(valOne>valTwo){
     console.log(`${valOne}, ${valTwo}`);
 } else{
     console.log("Valores são iguais.");
-}*/
+}
+*/
+
 
 /*
 //EX 9
-
 let codigo = parseInt(prompt("Digite o codigo de origem do produto: "));
 if(codigo===5 || codigo ===6){
     console.log("Nordeste.");
@@ -87,20 +125,20 @@ if(codigo===5 || codigo ===6){
     console.log("Nordeste.");
 }else{
     console.log("Produto Importado.");
-}*/
+}
+*/
+
 
 /*
 //EX 10
-
 let num = parseInt(prompt("Digite um numero: "));
 for(let i=0; i<10; i++)
     console.log(num);
-
 */
+
 
 /*
 //EX 11
-
 while(true){
     let num = parseInt(prompt("Digite um valor: "));
     if(num<=0)
@@ -111,12 +149,12 @@ while(true){
         else
             console.log("IMPAR.");
     }
-}*/
+}
+*/
 
 
 /*
 //EX 12
-
 for(let i=1000; i<=1999; i++){
     if(i%11===5)
         console.log(i);
@@ -149,6 +187,7 @@ while(true){
 console.log(`Media: ${total/count}`)
 */
 
+
 /*
 //EX 15
 let total = 0;
@@ -170,6 +209,8 @@ else
 
 */
 
+
+
 //EX 16
 let num = 100;
 let count = 0;
@@ -190,5 +231,4 @@ while(count<50){
     i=0;
     countPrimo=0;
     num++;
-
 }
