@@ -24,3 +24,14 @@ informações de como executa-los em sua máquina localmente.
 > - Escolher o exercício que queira executar e deletar apenas os Multi-line Comments **[/* */](https://www.w3schools.com/js/js_comments.asp)** dele.
 > - Abrir o terminal e então executar o comando `node lista02.js`.
 > - Após a execução, comentar novamente o exercício e passar para o próximo.
+
+## Atividade 03 - Landing page
+>[!NOTE]
+> Desenvolvimento de uma simples landing page.
+
+>[!TIP]
+> - Deploy: **[https://gsilverio.github.io](https://gsilverio.github.io)**.
+> - A landing page ainda não está responsiva.
+> - Foi desenvolvida na resolução 1920x1080 em um monitor de 24 polegadas. Outras specs podem quebrar o codigo.
+> - Na opcao "Contato" do navbar, possui um formulario para fazer a inserção das informações. Apos o envio, é feito o redirecionamento para a pagina inicial.
+> - As outras opcoes do menu navbar ainda não estão desenvolvidas. Ao clicar neles há uma mensagem.
