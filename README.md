@@ -35,3 +35,20 @@ informações de como executa-los em sua máquina localmente.
 > - Foi desenvolvida na resolução 1920x1080 em um monitor de 24 polegadas. Outras specs podem quebrar o codigo.
 > - Na opcao "Contato" do navbar, possui um formulario para fazer a inserção das informações. Apos o envio, é feito o redirecionamento para a pagina inicial.
 > - As outras opcoes do menu navbar ainda não estão desenvolvidas. Ao clicar neles há uma mensagem.
+
+## Atividade 03 - Landing page - v2
+>[!NOTE]
+> Aprimoramento da Landing Page
+
+>[!IMPORTANT]
+> - Na aba de login para habilitar o CRUD voce tem que entrar com as seguintes credenciais: <br/>**Email**:`admin@gmail.com` **Senha**:`admin`.
+
+>[!TIP]
+> - Deploy: **[https://gsilverio.github.io](https://gsilverio.github.io)**.
+> - Adicionado responsividade.
+> - Adicionado a implementação de outras paginas.
+> - Adicionado CRUD com LocalStorage, na aba de produto apos estar logado.
+> - Adicionado flexbox e bootstrap na aplicação.
+> - Adicionado transições assíncronas.
+
+
