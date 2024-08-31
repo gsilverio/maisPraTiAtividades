@@ -1,0 +1,49 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  width: 80%;
+  height: 70%;
+}
+.footer-info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-info-1 {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  left: 12.1%;
+  margin-bottom: 20px;
+}
+
+.footer-info-2 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footer-info-2 h4 {
+  margin-bottom: 15px;
+}
+.info {
+}
+.info-1 {
+  flex: 1;
+}
+
+.info a[class="info-tel"] {
+  text-decoration: none;
+}
+.info a[class="info-tel"]:hover {
+  text-decoration: underline;
+}
+
+.info a {
+  color: rgba(255, 255, 255, 0.7);
+}
