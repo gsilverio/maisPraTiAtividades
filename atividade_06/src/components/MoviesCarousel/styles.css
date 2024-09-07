@@ -1,0 +1,7 @@
+.movie-card {
+  height: 280px;
+}
+
+.movie-card img {
+  border-radius: 2%;
+}

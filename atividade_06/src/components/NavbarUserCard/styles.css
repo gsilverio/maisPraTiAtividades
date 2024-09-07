@@ -1,0 +1,23 @@
+.navbar-card-container {
+  width: 50px;
+  height: 50px;
+}
+.navbar-img-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 10px;
+  width: 120%;
+  height: 80%;
+}
+.navbar-img-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  margin-right: 5px;
+}
+
+.navbar-img-card:hover svg {
+  transform: rotate(180deg);
+}

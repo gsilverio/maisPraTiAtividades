@@ -1,0 +1,39 @@
+.home-container {
+  background: #141414;
+}
+.navbar-home-container {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.top-one-movie-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.top-one-movie-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.top-one-movie-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-container {
+  display: flex;
+}
+
+.carousel-daily {
+  position: relative;
+  padding-left: 3%;
+  color: #fff;
+  bottom: 8em;
+  z-index: 1;
+}
